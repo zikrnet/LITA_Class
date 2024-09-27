@@ -50,3 +50,7 @@ This is where we include some basic lines of code or queries or even some of the
 SELECT * FROM TABLE1
 WHERE CONDITION = TRUE
 
+### DATA VISUALIZATION
+
+![SYNTAX](https://github.com/user-attachments/assets/45fb0c68-ae43-469b-8a31-ed6123b18842)
+

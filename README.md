@@ -37,3 +37,10 @@ To perform exploratory data analysis (EDA), follow these steps123:
 4.  Find the shape of your dataset.
 5.  Identify relationships in your dataset.
 6.  Locate any outliers in your dataset.
+
+### Data Analysis 
+This is where we include some basic lines of code or queries or even some of the DAX expressions used during analysis;
+
+.......SQL
+SELECT * FROM TABLE1
+

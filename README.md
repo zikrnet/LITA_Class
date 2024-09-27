@@ -17,3 +17,23 @@ E-commerce Project Management for Rapid Growth [Learn More](www.blog.datahut.co/
   1. for Query of Data
 - GitHub
   1. for Portfolio Building
+
+### Data Cleaning and Preparation
+Data cleaning and preparation in Excel involves the following steps;
+1. Remove duplicates: Duplicate entries can sneak into your data when copying and pasting from various sources.
+2. Standardize formats: Inconsistent formatting can hinder data analysis.
+3. Clean text data: Text data often harbors errors like typos, extra spaces, and inconsistent capitalization.
+4. Fill missing values: Missing values can plague your data.
+5. Use data validation.
+6. Apply conditional formatting.
+7. Utilize Power Query.
+
+
+### Exploratory Data Analysis
+To perform exploratory data analysis (EDA), follow these steps123:
+1.  Observe your dataset at a high level.
+2.  Find any missing values.
+3.  Categorize your values.
+4.  Find the shape of your dataset.
+5.  Identify relationships in your dataset.
+6.  Locate any outliers in your dataset.

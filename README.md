@@ -41,7 +41,7 @@ To perform exploratory data analysis (EDA), follow these steps123:
 ### Data Analysis 
 This is where we include some basic lines of code or queries or even some of the DAX expressions used during analysis;
 
-'''''''SQL
+```SQL
 SELECT * FROM TABLE1
 WHERE CONDITION = TRUE
 

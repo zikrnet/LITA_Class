@@ -2,14 +2,17 @@
 
 ## Project Title: E-Commerce Sales Analysis
 
-```
+
 ## Project Overview
+```
 E-commerce project management is the process of planning, organizing, and executing tasks and resources to achieve specific goals within the e-commerce space. ECommerce project management is a subset of regular project management that has a different focal point and its own characteristics.
 
 ### Data Sources
+```
 E-commerce Project Management for Rapid Growth [Learn More](www.blog.datahut.co/post/ecommerce-data-sources-to-scrape)
 
 ### Tools Used
+```
 - Microsoft Excel [Download Here](https://www.microsoft.com)
   1. Data Cleaning
   2. Analysis and
@@ -20,6 +23,7 @@ E-commerce Project Management for Rapid Growth [Learn More](www.blog.datahut.co/
   1. for Portfolio Building
 
 ### Data Cleaning and Preparation
+```
 Data cleaning and preparation in Excel involves the following steps;
 1. Remove duplicates: Duplicate entries can sneak into your data when copying and pasting from various sources.
 2. Standardize formats: Inconsistent formatting can hinder data analysis.

@@ -7,3 +7,8 @@ E-commerce project management is the process of planning, organizing, and execut
 
 ### Data Sources
 E-commerce Project Management for Rapid Growth
+
+### Tools Used
+- Microsoft Excel for Data Cleaning, Analysis and Visualization
+- SQL - Strutured Query Language for Query of Data
+- GitHub for Portfolio Building

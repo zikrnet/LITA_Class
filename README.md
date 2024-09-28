@@ -52,8 +52,3 @@ WHERE CONDITION = TRUE
 
 ### DATA VISUALIZATION
 
-![SYNTAX](https://github.com/user-attachments/assets/45fb0c68-ae43-469b-8a31-ed6123b18842)
-
-
-
-![bar chart](https://github.com/user-attachments/assets/ac56d31f-e0cd-4364-bd7f-51a114bd1699)

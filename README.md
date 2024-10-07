@@ -80,3 +80,4 @@ SQL
 SELECT * FROM CUSTOMERS ORDER BY
 COUNTRY, CITY;
 ```
+![chart github](https://github.com/user-attachments/assets/385b2ffd-d43c-4f38-8eb0-1914acdf2c00)

@@ -62,5 +62,7 @@ COUNTRY, CITY;
 ![](https://github.com/zikrnet/LITA_Class/blob/main/bar%20chart.jpg)
 
 
+### CUSTOMERS
+select all records where the customerID column has the value 32
 
 

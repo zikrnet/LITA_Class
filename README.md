@@ -50,9 +50,10 @@ This is where we include some basic lines of code or queries or even some of the
 SELECT * FROM TABLE1
 WHERE CONDITION = TRUE
 
-DATA VISUALIZATION
+```
 
-
-![chart github](https://github.com/user-attachments/assets/27d3685d-ddb4-4e58-a183-abcb5155e872)
+```SQL
+SELECT * FROM CUSTOMERS ORDER BY
+COUNTRY, CITY;
 
 

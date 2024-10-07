@@ -69,3 +69,5 @@ select all records where the customerID column has the value 32
 SQL
 SELECT * FROM CUSTOMERS WHERE CUSTOMERID = 32,
 ```
+
+![](https://github.com/user-attachments/assets/1bfd39ce-b795-42b4-8b20-81034c2a0123)

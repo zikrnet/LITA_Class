@@ -71,3 +71,12 @@ SELECT * FROM CUSTOMERS WHERE CUSTOMERID = 32,
 ```
 
 ![](https://github.com/user-attachments/assets/1bfd39ce-b795-42b4-8b20-81034c2a0123)
+
+## CUSTOMER'S TABLE
+select all records from the customers table, sort the result alphabetically, first by the column country, then by the column city
+
+```
+SQL
+SELECT * FROM CUSTOMERS ORDER BY
+COUNTRY, CITY;
+```

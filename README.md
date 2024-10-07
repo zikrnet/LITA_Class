@@ -65,4 +65,7 @@ COUNTRY, CITY;
 ### CUSTOMERS
 select all records where the customerID column has the value 32
 
-
+```
+SQL
+SELECT * FROM CUSTOMERS WHERE CUSTOMERID = 32,
+```

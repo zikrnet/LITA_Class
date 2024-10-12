@@ -1,6 +1,6 @@
 # NAVIGATING THE DIGITAL ECONOMY:OPPORTUNITIES FOR LADIES IN AFRICA
 
-## Project Title: E-Commerce Sales Analysis
+## Project Title: BASICS OF DATA ANALLYSIS
 
 
 ## Project Overview

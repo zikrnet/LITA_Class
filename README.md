@@ -2,6 +2,24 @@
 
 ## Project Title: BASICS OF DATA ANALYSIS
 
+# PROJECT OVERVIEW
+1. Data Source
+2. Tools Used
+3. Data Cleaning and Preparation
+4. Exploratory Data Analysis
+5. Data Analysis
+It ivolves outlining key aspects of the project, including its objectives, methodology, data sources, analysis techniques, and expected outcomes.
+
+# Data Sources
+1. Source: Where the data is coming from (e.g. internal databases, third party services, surveys)
+2. Type: Structured, unstructured, time-series etc
+3. Time Frame: The period the date covers (e.g. last yeat, last quarter)
+
+# Methodology
+Methods and Tools used for the analysis;
+- Data Cleaning:       Outline the processes for preparing the data (handling missing values, outlier detection etc)
+- Analysis Technique:  Specify the analytical methods
+- Tools and Software:  Ms- Excel, SQL and PowerBI
 ## AGENDA
 
 1. Foundations of Data
@@ -10,6 +28,7 @@
 4. Reports and Dashboards in Excel
 5. Project
 ---
+
 ## QUOTES: The capacity to learn is a gift; the ability to learn is a skill; the willingness to learn is a choice. - Brian Herbert
 
 ## 1. FOUNDATIONS OF DATA

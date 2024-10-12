@@ -145,3 +145,6 @@ DAX functions play an important roles in the usage of DAX for data modelling and
 7.  Seek balance in your visual elements including text, color, shape etc
 8.  Use Patterns
 9.  Use proportion carefully so that differences in design size fairly represent differences in value 
+
+# POWERBI FUNDAMENTAL
+Power BI Fundamentals is for analysts looking to create professional, meaningful, and intuitive Power BI reports from a variety of data sources.

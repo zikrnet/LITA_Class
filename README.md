@@ -197,6 +197,8 @@ Note: Appending data must have the same schema (attribute).
 ![MERGED TABLE](https://github.com/user-attachments/assets/b24545af-c6b2-49ce-a373-b0a983291c59)
 ---
 
+Syntax
+
 ```
 = Table.NestedJoin(#"May Deposit", {"Date "}, #"May Loan", {"Date "}, "May Loan", JoinKind.LeftOuter)
 ```

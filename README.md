@@ -9,7 +9,8 @@
 3. Basic Excel Functions
 4. Reports and Dashboards in Excel
 5. Project
-
+---
+## QUOTES: The capacity to learn is a gift; the ability to learn is a skill; the willingness to learn is a choice. - Brian Herbert
 ### Data Sources
 ---
 E-commerce Project Management for Rapid Growth [Learn More](www.blog.datahut.co/post/ecommerce-data-sources-to-scrape)

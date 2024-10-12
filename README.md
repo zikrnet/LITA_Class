@@ -18,7 +18,7 @@ A data foundation refers to the fundamental infrastructure, processes, and strat
 ---
 
 ## 2. Introduction to Ms-Excel
-Excel contains the workbook where we see multiple worksheets
+Microsoft Excel is a popular spreadsheet software program for business. It's used for data entry and management, charts and graphs, and project management. Excel contains the workbook where we see multiple worksheets
 
 
 - Microsoft Excel [Download Here](https://www.microsoft.com)

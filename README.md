@@ -186,4 +186,17 @@ Note: Appending data must have the same schema (attribute).
 ![APPENDING THREE TABLE](https://github.com/user-attachments/assets/bd784c5f-d072-45b4-aed9-ad2c2be052bd)
 ---
 
+# MERGING
+ A merge queries operation joins two existing tables together based on matching values from one or multiple columns
 
+![MERGE](https://github.com/user-attachments/assets/ae6b240d-3e26-4fb3-bbc4-eb212f1b648d)
+---
+
+# Merged Table
+
+![MERGED TABLE](https://github.com/user-attachments/assets/b24545af-c6b2-49ce-a373-b0a983291c59)
+---
+
+```
+= Table.NestedJoin(#"May Deposit", {"Date "}, #"May Loan", {"Date "}, "May Loan", JoinKind.LeftOuter)
+```

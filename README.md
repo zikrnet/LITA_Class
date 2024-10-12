@@ -14,7 +14,6 @@
 ---
 E-commerce Project Management for Rapid Growth [Learn More](www.blog.datahut.co/post/ecommerce-data-sources-to-scrape)
 
-### Tools Used
 ---
 - Microsoft Excel [Download Here](https://www.microsoft.com)
   1. Data Cleaning

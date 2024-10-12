@@ -90,7 +90,7 @@ Arrange the table fields depending on what you want to see. Now you can insert a
 ---
 ## MICROSOFT EXCEL - DATA ENTRY IN EXCEL 
 Data Entry Form is a form that helps to enter the data with the help of a form in which the data can be added, searched, and previous data can be deleted.
-
+---
 
 
 oft Excel [Download Here](https://www.microsoft.com)

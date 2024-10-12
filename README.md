@@ -14,6 +14,7 @@
 
 ## 1. FOUNDATIONS OF DATA
 A data foundation refers to the fundamental infrastructure, processes, and strategies that lay the groundwork for effectively collecting, managing, storing, organizing, and leveraging enterprise data. A data foundation will allow you to consider your data as a single entity, rather than disparate, largely unrelated pieces of information.
+
 ---
 
 ## 2. Introduction to Ms-Excel
@@ -201,4 +202,15 @@ Syntax
 
 ```
 = Table.NestedJoin(#"May Deposit", {"Date "}, #"May Loan", {"Date "}, "May Loan", JoinKind.LeftOuter)
+```
+
+## Expand
+Retrieves a context with added levels of detail compared to the current context. 
+
+![expanded](https://github.com/user-attachments/assets/ea6e286b-32d6-4e70-9f41-6650e96c0aa4)
+---
+
+Syntax
+```
+= Table.ExpandTableColumn(Source, "May Loan", {"Loan Balances"}, {"May Loan.Loan Balances"})
 ```

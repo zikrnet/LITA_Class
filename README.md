@@ -19,7 +19,7 @@ A data foundation refers to the fundamental infrastructure, processes, and strat
 ## 2. Introduction to Ms-Excel
 Microsoft Excel is a popular spreadsheet software program for business. It's used for data entry and management, charts and graphs, and project management. Excel contains the workbook where we see multiple worksheets
 
-
+![Excel_Cells_Explained](https://github.com/user-attachments/assets/95b2718a-d1a3-4363-b396-0ed6e7dbdc41)
 
 ---
 oft Excel [Download Here](https://www.microsoft.com)

@@ -21,7 +21,22 @@ Microsoft Excel is a popular spreadsheet software program for business. It's use
 
 ![Excel_Cells_Explained](https://github.com/user-attachments/assets/95b2718a-d1a3-4363-b396-0ed6e7dbdc41)
 
+N.B: Row 1,048576,  Column 16,384
 ---
+## Basic Excel Functions
+
+# Basic Excel Formulas For Your Workflow 
+1. SUM
+2. AVERAGE
+3. COUNT
+4. 4. COUNTA
+5. IF
+6. TRIM
+7. MAX & MIN.
+
+
+
+
 oft Excel [Download Here](https://www.microsoft.com)
   1. Data Cleaning
   2. Analysis and

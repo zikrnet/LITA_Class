@@ -1,6 +1,6 @@
 # NAVIGATING THE DIGITAL ECONOMY:OPPORTUNITIES FOR LADIES IN AFRICA
 
-## Project Title: BASICS OF DATA ANALLYSIS
+## Project Title: BASICS OF DATA ANALYSIS
 
 ## AGENDA
 
@@ -128,3 +128,16 @@ Step 3:  Data Wrangling
 Step 4:  Determine Analysis
 Step 5:  Interpret Results
 
+## Data Analysis Expressions
+DAX functions play an important roles in the usage of DAX for data modelling and reporting. DAX is a formula language and is a collection of functions, operators and constants that can be used in a formula or expression to calculate and return one or more values. 
+
+## PRINCIPLES OF DATA VISUALIZATION
+1.  Determine your audience
+2.  Choose the right kind of chart to depict the type of information you have
+3.  Focus on how your audience needs to use the data
+4.  Provide the necessary context for data to be interpreted and acted upon appropriately
+5.  Keep it simple
+6.  Choose colors carefully to draw attention while also considering accessibility issues such as contrast
+7.  Seek balance in your visual elements including text, color, shape etc
+8.  Use Patterns
+9.  Use proportion carefully so that differences in design size fairly represent differences in value 

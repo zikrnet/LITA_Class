@@ -164,10 +164,23 @@ Transforming data helps clean and standardize it, ensuring accurate reporting an
 ![transform data](https://github.com/user-attachments/assets/f0220e88-f2e7-4255-83ea-1d363d0e6840)
 ---
 
-Schema is a like a table structured
+## POWER QUERY FOR DATA TRANSFORMATION
+Power Query is a data extraction, transformation, and loading (ETL) tool that comes bundled with Microsoft Excel, Power BI, and other Microsoft applications.
 
 ## APPENDING 
 In Power Query, the Append operation creates a new query that contains all rows from a first query followed by all rows from a second query.
 
-![Uploading APPENDING DATA.JPG…]()
+
+![APPENDING DATA](https://github.com/user-attachments/assets/590800b5-2e9d-4894-b903-896131333b83)
+
+
+## APPENDING MORE THAN ONE TABLE
+Appending: to join two table together to continue from where the last table stopped.
+Note: Appending data must have the same schema (attribute).
+
+
+![APPENDING THREE TABLE](https://github.com/user-attachments/assets/bd784c5f-d072-45b4-aed9-ad2c2be052bd)
+
 ---
+
+

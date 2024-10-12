@@ -23,16 +23,22 @@ Microsoft Excel is a popular spreadsheet software program for business. It's use
 
 N.B: Row 1,048576,  Column 16,384
 ---
-## Basic Excel Functions
+# Basic Excel Functions
 
-# Basic Excel Formulas For Your Workflow 
+## Basic Excel Formulas For Your Workflow 
 1. SUM
-2. AVERAGE
-3. COUNT
-4. 4. COUNTA
-5. IF
-6. TRIM
-7. MAX & MIN.
+```
+=A1 + B1
+
+
+```
+   
+3. AVERAGE
+4. COUNT
+5. 4. COUNTA
+6. IF
+7. TRIM
+8. MAX & MIN.
 
 
 

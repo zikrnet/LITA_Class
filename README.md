@@ -153,6 +153,4 @@ Power BI Fundamentals is for analysts looking to create professional, meaningful
 - To connect to data, from the Home ribbon select Get data. 
 - The Get Data window appears. 
 - You can choose from the many different data sources to which Power BI Desktop can connect.
-  
-!([Uploading lita class data.JPG…])
-
+![lita class data](https://github.com/user-attachments/assets/81a28700-63df-48cb-896e-ef9d698a2e28)

@@ -84,7 +84,6 @@ There are many ways to analyze your data on Excel, and you should go for the opt
 
 - Step 5: Create a Pivot Table
 Use a new worksheet on Excel to do this, since it can take some time to figure out properly. In the worksheet, go to Insert>PivotTable, and enter the name of your table.
-
 Arrange the table fields depending on what you want to see. Now you can insert a PivotChart based on the PivotTable. You could also go with a pie chart, bar graph, Gantt chart, waterfall chart, stacked column chart, line graph, and more.
 ---
 

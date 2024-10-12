@@ -13,7 +13,9 @@
 ## QUOTES: The capacity to learn is a gift; the ability to learn is a skill; the willingness to learn is a choice. - Brian Herbert
 ### Data Sources
 ---
-E-commerce Project Management for Rapid Growth [Learn More](www.blog.datahut.co/post/ecommerce-data-sources-to-scrape)
+## 1. FOUNDATIONS OF DATA
+A data foundation refers to the fundamental infrastructure, processes, and strategies that lay the groundwork for effectively collecting, managing, storing, organizing, and leveraging enterprise data. A data foundation will allow you to consider your data as a single entity, rather than disparate, largely unrelated pieces of information.
+
 
 ---
 - Microsoft Excel [Download Here](https://www.microsoft.com)

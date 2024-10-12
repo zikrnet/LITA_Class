@@ -1,5 +1,3 @@
-# NAVIGATING THE DIGITAL ECONOMY:OPPORTUNITIES FOR LADIES IN AFRICA
-
 ## Project Title: BASICS OF DATA ANALYSIS
 
 # PROJECT OVERVIEW
@@ -140,6 +138,13 @@ The following images shows the pivot tables used in building the dashboard that 
 - North Central: is the lowest performing region with a revenue of 6.49M
 
 ![IMG_20241012_204719](https://github.com/user-attachments/assets/fb280efc-6ac0-4c50-80d7-252e7afcc681)
+
+# Unit Cost by Region
+- North East:  is the top performing region, selling the highest number of units (208,983)
+- South West:  followed by (169,730)
+- North Central: is the lowest performing region with only (54,522) units sold
+
+![IMG_20241012_204700](https://github.com/user-attachments/assets/e496ff5e-ea68-4393-b1f6-d097474c2f8c)
 
 
 # POWERBI

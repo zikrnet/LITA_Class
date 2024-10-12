@@ -86,8 +86,13 @@ There are many ways to analyze your data on Excel, and you should go for the opt
 Use a new worksheet on Excel to do this, since it can take some time to figure out properly. In the worksheet, go to Insert>PivotTable, and enter the name of your table.
 
 Arrange the table fields depending on what you want to see. Now you can insert a PivotChart based on the PivotTable. You could also go with a pie chart, bar graph, Gantt chart, waterfall chart, stacked column chart, line graph, and more.
+---
 
 ---
+## MICROSOFT EXCEL - DATA ENTRY IN EXCEL 
+Data Entry Form is a form that helps to enter the data with the help of a form in which the data can be added, searched, and previous data can be deleted.
+
+
 
 oft Excel [Download Here](https://www.microsoft.com)
   1. Data Cleaning

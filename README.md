@@ -3,7 +3,7 @@
 ## Project Title: BASICS OF DATA ANALLYSIS
 
 ## AGENDA
----
+
 1. Foundations of Data
 2. Introduction to Ms-Excel
 3. Basic Excel Functions

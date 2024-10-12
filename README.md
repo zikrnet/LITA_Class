@@ -1,4 +1,4 @@
-# LITA_Class_Documentation
+# NAVIGATING THE DIGITAL ECONOMY:OPPORTUNITIES FOR LADIES IN AFRICA
 
 ## Project Title: E-Commerce Sales Analysis
 

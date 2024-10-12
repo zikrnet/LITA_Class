@@ -15,9 +15,12 @@
 ---
 ## 1. FOUNDATIONS OF DATA
 A data foundation refers to the fundamental infrastructure, processes, and strategies that lay the groundwork for effectively collecting, managing, storing, organizing, and leveraging enterprise data. A data foundation will allow you to consider your data as a single entity, rather than disparate, largely unrelated pieces of information.
-
-
 ---
+
+## 2. Introduction to Ms-Excel
+Excel contains the workbook where we see multiple worksheets
+
+
 - Microsoft Excel [Download Here](https://www.microsoft.com)
   1. Data Cleaning
   2. Analysis and

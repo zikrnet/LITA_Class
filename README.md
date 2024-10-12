@@ -11,7 +11,6 @@
 5. Project
 ---
 ## QUOTES: The capacity to learn is a gift; the ability to learn is a skill; the willingness to learn is a choice. - Brian Herbert
-### Data Sources
 ---
 ## 1. FOUNDATIONS OF DATA
 A data foundation refers to the fundamental infrastructure, processes, and strategies that lay the groundwork for effectively collecting, managing, storing, organizing, and leveraging enterprise data. A data foundation will allow you to consider your data as a single entity, rather than disparate, largely unrelated pieces of information.
@@ -21,7 +20,9 @@ A data foundation refers to the fundamental infrastructure, processes, and strat
 Microsoft Excel is a popular spreadsheet software program for business. It's used for data entry and management, charts and graphs, and project management. Excel contains the workbook where we see multiple worksheets
 
 
-- Microsoft Excel [Download Here](https://www.microsoft.com)
+
+---
+oft Excel [Download Here](https://www.microsoft.com)
   1. Data Cleaning
   2. Analysis and
   3. Visualization

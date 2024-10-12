@@ -25,21 +25,33 @@ N.B: Row 1,048576,  Column 16,384
 ---
 # Basic Excel Functions
 
-## Basic Excel Formulas For Your Workflow 
 1. SUM
 The Excel SUM function returns the sum of all inserted values. For the input, you can combine any sort of numerical values, e.g. numbers, cell references, ranges or arrays.
 ```
 SUM (number1, [number2], [number3], …)
 ```
 2. AVERAGE
-   ```
-=A10/2
+The Excel AVERAGE function returns the average of all inserted values. For the input, you can combine any sort of numerical values, e.g. numbers, cell references, ranges or arrays.
 ```
-3. COUNT
-5. 4. COUNTA
-6. IF
-7. TRIM
-8. MAX & MIN.
+Syntax: AVERAGE (number1, [number2], [number3], …)
+```
+3. IF FUNCTION
+The Excel IF function is the most essential function in Excel for logical tests. You can define the value that is returned by this function if the result of the logical test is TRUE and the value that is returned if the result is FALSE. If you want to test more than one condition, you can simply nest multiple IF functions.
+```
+Syntax: IF  (logical_test, [value_if_true], [value_if_false])
+```
+4. MIN & MAX Function
+The Excel MIN function returns the smallest numeric value in a range of values. Accordingly, the Excel MAX function returns the biggest numeric value in a range of values. Both function only consider numeric values. Empty cells, logical or text values will be ignored.
+```
+Syntax: MIN (number1, [number2], …)    |      MAX (number1, [number2], …)
+```
+
+5.
+6. COUNT
+7. 4. COUNTA
+8. IF
+9. TRIM
+10. MAX & MIN.
 
 
 

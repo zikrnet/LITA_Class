@@ -204,7 +204,7 @@ Syntax
 = Table.NestedJoin(#"May Deposit", {"Date "}, #"May Loan", {"Date "}, "May Loan", JoinKind.LeftOuter)
 ```
 
-## Expand
+## ExpandTable
 Retrieves a context with added levels of detail compared to the current context. 
 
 ![expanded](https://github.com/user-attachments/assets/ea6e286b-32d6-4e70-9f41-6650e96c0aa4)

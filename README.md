@@ -11,7 +11,7 @@
 5. Project
 ---
 ## QUOTES: The capacity to learn is a gift; the ability to learn is a skill; the willingness to learn is a choice. - Brian Herbert
----
+
 ## 1. FOUNDATIONS OF DATA
 A data foundation refers to the fundamental infrastructure, processes, and strategies that lay the groundwork for effectively collecting, managing, storing, organizing, and leveraging enterprise data. A data foundation will allow you to consider your data as a single entity, rather than disparate, largely unrelated pieces of information.
 ---
@@ -92,6 +92,10 @@ Data Entry Form is a form that helps to enter the data with the help of a form i
 
 # POWERBI
 PowerBI is a collection of software services, apps and connectors that work together to turn your unrelated sources of data into coherent, visually immersive and interactive insights.
+# PowerBI - Interface 
+![powerbi interface](https://github.com/user-attachments/assets/3a6faa8a-1d10-4f52-b562-c6be7b2f075e)
+# PowerBI - Report View
+![report view in powerbi](https://github.com/user-attachments/assets/bbd5b685-35c2-4995-a04e-a594be974d59)
 
 ## Data Sources for PowerBI
 1. Excel

@@ -86,16 +86,20 @@ There are many ways to analyze your data on Excel, and you should go for the opt
 Use a new worksheet on Excel to do this, since it can take some time to figure out properly. In the worksheet, go to Insert>PivotTable, and enter the name of your table.
 Arrange the table fields depending on what you want to see. Now you can insert a PivotChart based on the PivotTable. You could also go with a pie chart, bar graph, Gantt chart, waterfall chart, stacked column chart, line graph, and more.
 
----
+
 ## MICROSOFT EXCEL - DATA ENTRY IN EXCEL 
 Data Entry Form is a form that helps to enter the data with the help of a form in which the data can be added, searched, and previous data can be deleted.
 
 # POWERBI
 PowerBI is a collection of software services, apps and connectors that work together to turn your unrelated sources of data into coherent, visually immersive and interactive insights.
+
+
 # PowerBI - Interface 
 ![powerbi interface](https://github.com/user-attachments/assets/3a6faa8a-1d10-4f52-b562-c6be7b2f075e)
+---
 # PowerBI - Report View
 ![report view in powerbi](https://github.com/user-attachments/assets/bbd5b685-35c2-4995-a04e-a594be974d59)
+---
 
 ## Data Sources for PowerBI
 1. Excel
@@ -170,17 +174,16 @@ Power Query is a data extraction, transformation, and loading (ETL) tool that co
 ## APPENDING 
 In Power Query, the Append operation creates a new query that contains all rows from a first query followed by all rows from a second query.
 
-
+---
 ![APPENDING DATA](https://github.com/user-attachments/assets/590800b5-2e9d-4894-b903-896131333b83)
-
+---
 
 ## APPENDING MORE THAN ONE TABLE
 Appending: to join two table together to continue from where the last table stopped.
 Note: Appending data must have the same schema (attribute).
 
-
+---
 ![APPENDING THREE TABLE](https://github.com/user-attachments/assets/bd784c5f-d072-45b4-aed9-ad2c2be052bd)
-
 ---
 
 

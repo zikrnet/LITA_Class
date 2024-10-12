@@ -156,13 +156,13 @@ Power BI Fundamentals is for analysts looking to create professional, meaningful
 
 
 ![lita class data](https://github.com/user-attachments/assets/7355826a-32e7-44c5-8739-9d3190611251)
-
+---
 ## Transform Data
 Transforming data helps clean and standardize it, ensuring accurate reporting and analysis.
 
 
 ![transform data](https://github.com/user-attachments/assets/f0220e88-f2e7-4255-83ea-1d363d0e6840)
-
+---
 
 Schema is a like a table structured
 

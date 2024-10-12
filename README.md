@@ -55,12 +55,39 @@ The Excel CONCATENATE function joins two or more text items together.
 ```
 Syntax: CONCATENATE (text1, [text2], …)
 ```
-
+---
 ## 4. REPORT AND DASHBOARD IN EXCEL
 An Excel dashboard is basically a high-level visual representation of key business metrics.
 
+## Steps to Create a Dashboard in Excel
+Here’s a simple set of steps to follow to create an Excel dashboard:
+- Step 1: Pull your raw data into Excel
+If your data already exists in an Excel spreadsheet, go ahead and skip this step. If not, here are some ways to import data into Excel:
+1. Simply copy and paste
+2. Use Microsoft PowerQuery to import data from different sources like CSV files, PDFs, tables, folders, SQL servers, and many more platforms.
 
+- Step 2: Set up a structure for your workbook
+Keep your dashboard at the beginning of your new Excel workbook, and add one or more worksheets with your data in them. Name your first sheet ‘Dashboard’ and the other tab ‘Data’ for easy reference.
 
+- Step 3: Create a table
+Creating a table isn’t a mandatory step, but it makes the process of creating charts much more efficient. Tables have the ability to expand as you add new data and perform calculations easily.
+
+First select the data and go to Insert>Table. Excel will automatically create a table, and you can apply your preferred table style. Give your table an appropriate name so you can reference it easily instead of having to select the data range every time.
+
+- Step 4: Visualize your data
+There are many ways to analyze your data on Excel, and you should go for the option that suits the overall goal for the dashboard. Here are the commonly used methods of visualizing data:
+1. Pivot Table
+2. Charts
+3. Excel Formulas
+4. Conditional formatting
+5. Pivot tables are the most useful method for the purposes of a dashboard, as they let you sort, group, count, and add up data in a table.
+
+- Step 5: Create a Pivot Table
+Use a new worksheet on Excel to do this, since it can take some time to figure out properly. In the worksheet, go to Insert>PivotTable, and enter the name of your table.
+
+Arrange the table fields depending on what you want to see. Now you can insert a PivotChart based on the PivotTable. You could also go with a pie chart, bar graph, Gantt chart, waterfall chart, stacked column chart, line graph, and more.
+
+---
 
 oft Excel [Download Here](https://www.microsoft.com)
   1. Data Cleaning

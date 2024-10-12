@@ -90,11 +90,41 @@ Arrange the table fields depending on what you want to see. Now you can insert a
 ## MICROSOFT EXCEL - DATA ENTRY IN EXCEL 
 Data Entry Form is a form that helps to enter the data with the help of a form in which the data can be added, searched, and previous data can be deleted.
 
-## POWERBI
+# POWERBI
 PowerBI is a collection of software services, apps and connectors that work together to turn your unrelated sources of data into coherent, visually immersive and interactive insights.
 
-# Data Sources for PowerBI
+## Data Sources for PowerBI
 1. Excel
 2. Cloud and Tables
 3. SQL
 4. Web
+
+## Components of PowerBI
+1. PowerBI Desktop: This is used to create reports and data visualization on data set
+2. PowerBI Gateway: It allows you to query large datasets and benefit from the existing investment
+3. PowerBI Mobile Apps: using PowerBI Mobile Apps, you can stay connected to their data from anywhere
+4. PowerBI Service: This is a cloud service and is sued to publish PowerBI
+
+## Data Sources
+1.  Flat Files
+2.  SQL Database
+3.  OData Feed (Ordinary Database)
+4.  Blank Query
+5.  Azure Cloud Platfrom
+6.  Online Services
+7.  Blank Query
+
+## Data Modelling
+Data Modelling is one of the features used to connect multiples data sources using a relationship. A relationship defines how data sources are connected with eachother and you can create interesting data visualization on mulltiple data sources. 
+- One-to-One
+- One-to-Many
+- Many-to-Many
+Visualizations are used to efefctively present your data and are the basic building blocks of any business intelligence tool.
+
+## Visualization Options
+Step 1:  Define questions and goals
+Step 2:  Collect Data
+Step 3:  Data Wrangling
+Step 4:  Determine Analysis
+Step 5:  Interpret Results
+

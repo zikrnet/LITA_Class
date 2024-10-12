@@ -146,6 +146,10 @@ The following images shows the pivot tables used in building the dashboard that 
 
 ![IMG_20241012_204700](https://github.com/user-attachments/assets/e496ff5e-ea68-4393-b1f6-d097474c2f8c)
 
+# Top Stores in the Region
+**Ajaokuta** and **Ankpa** are the top performing stores, generating significantly higher revenue compared to other stores. The remaining stores have similar revenue levels, with Ekiti South West being the highest among them.
+
+![IMG_20241012_204642](https://github.com/user-attachments/assets/f77b58c5-e454-43de-a946-d55a3a168627)
 
 # POWERBI
 PowerBI is a collection of software services, apps and connectors that work together to turn your unrelated sources of data into coherent, visually immersive and interactive insights.

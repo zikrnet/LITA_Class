@@ -166,3 +166,8 @@ Transforming data helps clean and standardize it, ensuring accurate reporting an
 
 Schema is a like a table structured
 
+## APPENDING 
+In Power Query, the Append operation creates a new query that contains all rows from a first query followed by all rows from a second query.
+
+![Uploading APPENDING DATA.JPG…]()
+---

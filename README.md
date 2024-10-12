@@ -89,6 +89,12 @@ Arrange the table fields depending on what you want to see. Now you can insert a
 ---
 ## MICROSOFT EXCEL - DATA ENTRY IN EXCEL 
 Data Entry Form is a form that helps to enter the data with the help of a form in which the data can be added, searched, and previous data can be deleted.
----
 
+## POWERBI
+PowerBI is a collection of software services, apps and connectors that work together to turn your unrelated sources of data into coherent, visually immersive and interactive insights.
 
+# Data Sources for PowerBI
+1. Excel
+2. Cloud and Tables
+3. SQL
+4. Web

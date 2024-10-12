@@ -154,5 +154,5 @@ Power BI Fundamentals is for analysts looking to create professional, meaningful
 - The Get Data window appears. 
 - You can choose from the many different data sources to which Power BI Desktop can connect.
   
-![Uploading lita class data.JPG…]()
+!([Uploading lita class data.JPG…])
 

@@ -27,14 +27,15 @@ N.B: Row 1,048576,  Column 16,384
 
 ## Basic Excel Formulas For Your Workflow 
 1. SUM
+The Excel SUM function returns the sum of all inserted values. For the input, you can combine any sort of numerical values, e.g. numbers, cell references, ranges or arrays.
 ```
-=A1 + B1
-
-
+SUM (number1, [number2], [number3], …)
 ```
-   
-3. AVERAGE
-4. COUNT
+2. AVERAGE
+   ```
+=A10/2
+```
+3. COUNT
 5. 4. COUNTA
 6. IF
 7. TRIM

@@ -148,3 +148,10 @@ DAX functions play an important roles in the usage of DAX for data modelling and
 
 # POWERBI FUNDAMENTAL
 Power BI Fundamentals is for analysts looking to create professional, meaningful, and intuitive Power BI reports from a variety of data sources.
+
+# GET DATA
+- To connect to data, from the Home ribbon select Get data. 
+- The Get Data window appears. 
+- You can choose from the many different data sources to which Power BI Desktop can connect. 
+![Uploading lita class data.JPG…]()
+

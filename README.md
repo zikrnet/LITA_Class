@@ -45,13 +45,19 @@ The Excel MIN function returns the smallest numeric value in a range of values. 
 ```
 Syntax: MIN (number1, [number2], …)    |      MAX (number1, [number2], …)
 ```
+5. TRIM Function
+The Excel TRIM function removes the leading and trailing spaces from a given text. Additionally, it removes unnecessary spaces between words.
+```
+Syntax: TRIM (text)
+```
+6. CONCATENATE Function
+The Excel CONCATENATE function joins two or more text items together.
+```
+Syntax: CONCATENATE (text1, [text2], …)
+```
 
-5.
-6. COUNT
-7. 4. COUNTA
-8. IF
-9. TRIM
-10. MAX & MIN.
+## 4. REPORT AND DASHBOARD IN EXCEL
+An Excel dashboard is basically a high-level visual representation of key business metrics.
 
 
 

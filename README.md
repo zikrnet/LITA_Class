@@ -18,6 +18,7 @@ Methods and Tools used for the analysis;
 - Data Cleaning:       Outline the processes for preparing the data (handling missing values, outlier detection etc)
 - Analysis Technique:  Specify the analytical methods
 - Tools and Software:  Ms- Excel, SQL and PowerBI
+
 ## AGENDA
 
 1. Foundations of Data
@@ -150,6 +151,7 @@ The following images shows the pivot tables used in building the dashboard that 
 **Ajaokuta** and **Ankpa** are the top performing stores, generating significantly higher revenue compared to other stores. The remaining stores have similar revenue levels, with Ekiti South West being the highest among them.
 
 ![IMG_20241012_204642](https://github.com/user-attachments/assets/f77b58c5-e454-43de-a946-d55a3a168627)
+
 
 # POWERBI
 PowerBI is a collection of software services, apps and connectors that work together to turn your unrelated sources of data into coherent, visually immersive and interactive insights.

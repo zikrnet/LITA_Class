@@ -213,6 +213,7 @@ SQL Server Management Studio (SSMS) is a windows software or a client tool used 
 
 # Interface of Microsoft SQL Server Management Studio
 ![sql server](https://github.com/user-attachments/assets/a4f710c4-80dd-4c3f-84f8-f12babda2f4e)
+---
 
 # Writing SQL Queries
 1. Create a Table
@@ -232,6 +233,74 @@ HireDate datetime,
 primary key (staffid)
 )
 ```
+
+3. Select:  helps to retrieve information from database
+Syntax
+
+```
+select * from employee
+```
+
+4. Insert:  to key-in data in the database
+Syntax
+
+```
+insert into Employee (staffid, firstname, secondname, gender,Date_of_Birth, hiredate)
+```
+
+5. Drop Table:  to delete the entire table in a database
+Syntax
+
+```
+drop table employee
+```
+
+6. Delete:  will erase the record
+Syntax
+
+```
+DELETE FROM table_name WHERE condition
+```
+Note: Be careful when deleting records in a table! Notice the WHERE clause in the DELETE statement. The WHERE clause specifies which record(s) should be deleted.
+
+7. Truncate:  a DDL or Data Definition Language command that is used to delete the complete data from the table without deleting the table structure
+Syntax
+
+```
+TRUNCATE TABLE Tb_name
+```
+8. Identity:  is to auto increment and it will be increasing by (1).
+Syntax
+
+```
+CREATE TABLE PERSON (
+personid int identity (1,1) primary key not null,
+personname varchar (255) not null,
+age int
+)
+```
+
+9. SUM:  SUM is a SQL aggregate function. that totals the values in a given column.
+Syntax
+
+```
+SELECT SUM(Salary) AS TOTALSALARY FROM Salary
+```
+
+10. AVERAGE: AVG () computes the average of a set of values by dividing the sum of those values by the count of non-null values.
+Syntax
+
+```
+SELECT AVG(Salary) AS AVERAGESALARY FROM Salary
+```
+
+11. COUNT:  The COUNT() function returns the number of records returned by a select query. Note: NULL values are not counted.
+Syntax
+
+```
+SELECT COUNT(Staffid) AS EmployeeCount FROM EMPLOYEE
+```
+
 
 # POWERBI
 PowerBI is a collection of software services, apps and connectors that work together to turn your unrelated sources of data into coherent, visually immersive and interactive insights.

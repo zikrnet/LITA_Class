@@ -439,7 +439,16 @@ SELECT * FROM EMPLOYEE
 WHERE FIRSTNAME ='JUSTIN' OR GENDER= 'FEMALE'
 ```
 
-- NOT: 
+- NOT: The NOT operator is used in combination with other operators to give the opposite result, also called the negative result.
+
+Syntax
+
+```
+SELECT column1, colomn2, … 
+FROM table_name WHERE NOT condition;
+```
+
+
 
 
 ## POWERBI

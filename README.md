@@ -643,3 +643,13 @@ A SQL parser is a tool that reads SQL code and converts it into a format that ca
 The DATE() function extracts the date part from a datetime expression. 
 
 ![date table](https://github.com/user-attachments/assets/34177e13-2ace-4e9b-879b-413625c06cfe)
+
+# OUSTANDING COLUMN TABLE
+
+![oustanding table](https://github.com/user-attachments/assets/a8016d56-5fca-49db-a383-e7d5f09f6522)
+
+Syntax:
+
+```
+= Table.AddColumn(#"Renamed Columns", "Oustanding", each [May Loan Summary] - [Loan Deposit])
+```

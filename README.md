@@ -211,11 +211,26 @@ Is used to define a value that a column can contain
 Is a software application developed by Microsoft that is used for configuring, managing, and administering all components within Microsoft SQL Server. 
 SQL Server Management Studio (SSMS) is a windows software or a client tool used to connect and work with our SQL Server from a graphical interface instead of using the command line. Microsoft SQL Server 2005 launched the management studio to work with SQL Server and Azure SQL databases. [https://www.javatpoint.com/sql-server-management-studio]
 
+# Interface of Microsoft SQL Server Management Studio
+![sql server](https://github.com/user-attachments/assets/a4f710c4-80dd-4c3f-84f8-f12babda2f4e)
 
 # Writing SQL Queries
 1. Create a Table
 ```
 create database LITA_DB
+```
+
+2. Create Employee Table
+```
+CREATE TABLE Employee (
+staffid varchar (225) not null,
+FirstName varchar (255) NOT NULL,
+SecondName varchar (255),
+Gender varchar (10),
+Date_of_Birth date,
+HireDate datetime,
+primary key (staffid)
+)
 ```
 
 # POWERBI

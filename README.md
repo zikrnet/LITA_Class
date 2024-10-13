@@ -200,6 +200,19 @@ Note: Database tables for instance are organized by columns
 4. Data Query Language:          SELECT
 5. Transaction Control Language: COMMIT, ROLLBACK, SAFE POINT
 
+## Data Type
+Is used to define a value that a column can contain
+- String
+- Numeric
+- Boolean
+- Date/DateTime
+
+# Writing SQL Queries
+1. Create a Table
+```
+create database LITA_DB
+```
+
 # POWERBI
 PowerBI is a collection of software services, apps and connectors that work together to turn your unrelated sources of data into coherent, visually immersive and interactive insights.
 

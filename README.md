@@ -447,9 +447,68 @@ Syntax
 SELECT column1, colomn2, … 
 FROM table_name WHERE NOT condition;
 ```
+# UPDATE
+The UPDATE statement in SQL is used to update the data of an existing table in the database.
 
+Syntax:
 
+```
+UPDATE Salary
+SET FIRSTNAME ='Emeka'
+where staffid ='AB212'
+```
 
+# JOIN
+A Join is used to combine rows or record from two or more table based on related columns between them
+- Inner Join
+- Left Join
+- Right Join
+- Full Join
+[https://www.geeksforgeeks.org/sql-join-set-1-inner-left-right-and-full-joins/]
+
+# UNION AND UNION ALL
+UNION and UNION ALL in SQL are set operators that combine the results of two SELECT queries. Both share standard features, with one significant difference: UNION only returns a unique record, while UNION ALL returns all the records (including duplicates).
+
+Union All
+
+Syntax
+
+```
+	select * from LITA_Store_Lekki
+	union all
+	select * from LITA_Store_Marina
+```
+
+Union 
+
+Syntax
+
+```
+select  customerID, Customer_gender, transaction_amount
+from LITA_Store_Lekki
+union 
+select customerID, Customer_gender, transaction_amount
+from LITA_Store_Marina
+```
+
+# SQL VIEWS
+SQL views can streamline the data management processes and enhance the analytical capabilities. An SQL view is a virtual table that is created based on the result set of a SQL query. 
+
+A view behaves like a SQL allowing you to select, update, insert, and delete data (with some limitation). A view is defined using a SELECT statement that can join multiple tables, filter rows and select specific columns. 
+
+Syntax:
+
+```
+select * from [dbo].[vw_LITA_Store_Transaction_tbl]
+```
+
+# HOW TO EXPORT
+
+1. Open Excel
+2. Click on Data
+3. Click on "from other source"
+4. Click on "from SQR Server"
+5. Data connect wizard
 
 ## POWERBI
 PowerBI is a collection of software services, apps and connectors that work together to turn your unrelated sources of data into coherent, visually immersive and interactive insights.

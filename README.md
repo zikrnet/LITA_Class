@@ -301,6 +301,19 @@ Syntax
 SELECT COUNT(Staffid) AS EmployeeCount FROM EMPLOYEE
 ```
 
+12. MAX:  The MAX function in SQL is designed to identify the maximum value of a specified column. This function is particularly useful in retrieving the highest value from sets of data.
+Syntax
+
+```
+SELECT MAX(column_1) FROM table.
+```
+
+13. MIN:  The MIN() function returns the smallest value of the selected column.
+Syntax
+
+```
+SELECT MIN(column_1) FROM table.
+```
 
 # POWERBI
 PowerBI is a collection of software services, apps and connectors that work together to turn your unrelated sources of data into coherent, visually immersive and interactive insights.

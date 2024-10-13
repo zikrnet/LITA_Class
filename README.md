@@ -207,6 +207,11 @@ Is used to define a value that a column can contain
 - Boolean
 - Date/DateTime
 
+# Microsoft SQL Server Management Studio 
+Is a software application developed by Microsoft that is used for configuring, managing, and administering all components within Microsoft SQL Server. 
+SQL Server Management Studio (SSMS) is a windows software or a client tool used to connect and work with our SQL Server from a graphical interface instead of using the command line. Microsoft SQL Server 2005 launched the management studio to work with SQL Server and Azure SQL databases. [https://www.javatpoint.com/sql-server-management-studio]
+
+
 # Writing SQL Queries
 1. Create a Table
 ```

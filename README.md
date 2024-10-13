@@ -510,17 +510,6 @@ select * from [dbo].[vw_LITA_Store_Transaction_tbl]
 4. Click on "from SQR Server"
 5. Data connect wizard
 
-# Parser
-A SQL parser is a tool that reads SQL code and converts it into a format that can be understood and processed by a computer.
-
-![parse](https://github.com/user-attachments/assets/cb476178-46dd-4bad-9130-6482a126faa2)
-
-# Date Function
-The DATE() function extracts the date part from a datetime expression. 
-
-![date table](https://github.com/user-attachments/assets/34177e13-2ace-4e9b-879b-413625c06cfe)
-
-
 ## POWERBI
 PowerBI is a collection of software services, apps and connectors that work together to turn your unrelated sources of data into coherent, visually immersive and interactive insights.
 
@@ -644,3 +633,13 @@ Syntax
 ```
 = Table.ExpandTableColumn(Source, "May Loan", {"Loan Balances"}, {"May Loan.Loan Balances"})
 ```
+
+# Parser
+A SQL parser is a tool that reads SQL code and converts it into a format that can be understood and processed by a computer.
+
+![parse](https://github.com/user-attachments/assets/cb476178-46dd-4bad-9130-6482a126faa2)
+
+# Date Function
+The DATE() function extracts the date part from a datetime expression. 
+
+![date table](https://github.com/user-attachments/assets/34177e13-2ace-4e9b-879b-413625c06cfe)

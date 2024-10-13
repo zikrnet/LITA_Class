@@ -314,8 +314,135 @@ Syntax
 ```
 SELECT MIN(column_1) FROM table.
 ```
+# SQL CLAUSE
+SQL Clauses are essential components of SQL that define how queries interact wit the database. They are used to specify condtions, modify data and control how results are returned. 
 
-# POWERBI
+SQL Clause comprises of the folowing;
+1. Group By Clause:  gorup rows that have the same value into summary row
+ 
+ Syntax:
+
+```
+select count(staffid) state_of_origin from employee
+GROUP BY state_of_origin
+```
+ 
+2. Having Clause:  enable user to filter the result based on the result
+
+Syntax:
+
+```
+select count(staffid) state_of_origin 
+from employee
+GROUP BY state_of_origin 
+HAVING COUNT(Staffid) >=3
+```
+
+3. Order By Clause:  to sort result either in ascending or descending order
+
+  a. Ascending Order
+  Syntax:
+
+   ```
+  select count(staffid) as staffperstate, state_of_origin 
+  from employee
+  GROUP BY state_of_origin
+  order by count(staffid) asc
+  ```
+
+  b. Descending Order
+  Syntax:
+
+  ```
+  select count(staffid) as staffperstate, state_of_origin 
+  from employee
+  GROUP BY state_of_origin
+  order by count(staffid) desc
+  ```
+
+# COLUMN INDEX
+Sorting by particular column by representing a number
+
+Syntax:
+
+```
+select count(staffid) as staffperstate, state_of_origin 
+from employee
+GROUP BY state_of_origin
+order by 2 desc
+```
+
+# COMPARISON/RELATIONAL OPERATORS
+
+1. < =less then
+Syntax
+
+```
+select * from Salary
+where salary < 100560.934
+```
+
+2. < = greater than
+Syntax:
+
+```
+select * from Salary
+where salary > 100560.934
+```
+
+3. <> = not equal
+Syntax:
+
+```
+select * from Salary
+where salary <> 100560.934
+```
+
+# Range Operators  
+Range operators are those operators which selects data according to particular range.
+1. Between
+   
+Syntax:
+
+```
+select * from salary
+where salary between 500000 and 900000
+```
+
+2. Not Between
+   
+Syntax:
+
+```
+select * from salary
+where salary not between 500000 and 900000
+```
+
+# Logical Operator
+Combine condition in a where clause to perform operation in a data e.g. AND, OR, NOT
+
+- AND: if both conditions are true otherwise false
+
+Syntax
+
+```
+SELECT * FROM EMPLOYEE
+WHERE FIRSTNAME ='JOHNSON' AND GENDER= 'FEMALE'
+```
+
+- OR: either of the input
+
+Syntax
+
+```
+SELECT * FROM EMPLOYEE
+WHERE FIRSTNAME ='JUSTIN' OR GENDER= 'FEMALE'
+```
+
+- NOT: 
+
+
+## POWERBI
 PowerBI is a collection of software services, apps and connectors that work together to turn your unrelated sources of data into coherent, visually immersive and interactive insights.
 
 

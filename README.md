@@ -152,6 +152,12 @@ The following images shows the pivot tables used in building the dashboard that 
 
 ![IMG_20241012_204642](https://github.com/user-attachments/assets/f77b58c5-e454-43de-a946-d55a3a168627)
 
+## INTRODUCTION TO SQL
+# STRUCTURED QUERY LANGUAGE - SQL
+It is used for storing and managing data in RELATIONAL DATABASE MANAGEMENT SYSTEM (RDBMS). It is a standard language for relational database system. It enables a user to relate databases and tables. 
+SQL allows user to query the database in a number of ways, using English-Like Statements. 
+**Note: SQL is used for storing, retrieving and managing data in a relational database management system.** 
+
 
 # POWERBI
 PowerBI is a collection of software services, apps and connectors that work together to turn your unrelated sources of data into coherent, visually immersive and interactive insights.

@@ -152,12 +152,53 @@ The following images shows the pivot tables used in building the dashboard that 
 
 ![IMG_20241012_204642](https://github.com/user-attachments/assets/f77b58c5-e454-43de-a946-d55a3a168627)
 
-## INTRODUCTION TO SQL
-# STRUCTURED QUERY LANGUAGE - SQL
+# INTRODUCTION TO SQL
+## STRUCTURED QUERY LANGUAGE - SQL
 It is used for storing and managing data in RELATIONAL DATABASE MANAGEMENT SYSTEM (RDBMS). It is a standard language for relational database system. It enables a user to relate databases and tables. 
 SQL allows user to query the database in a number of ways, using English-Like Statements. 
+
 **Note: SQL is used for storing, retrieving and managing data in a relational database management system.** 
 
+## What are the SQL?
+SQL follows the following rules;
+- Structure query language is not a case sensitive
+- Statements of SQL are dependent on text lines. We can use a single SQL
+- Using the SQL statements, you can perform most oof the actions in a database
+- SQL depends on tuple relational calculus and algebra
+
+## What is the Databases?
+A database is an organised collection of data that is stored and managed in a structured way to allow for easy access, retrieval and manipulation.
+
+## Advantages of Database
+- Data Integrity
+- Security
+- Backup and Recovery
+- Concurrency
+- Scalability
+- Efficient Data Management
+
+## How Databases store Data?
+Databases store data in a structured format using tables; which are composed of rows and columns
+
+Note: Database tables for instance are organized by columns
+- Row is called Records
+- Column is called Fields
+- Each column must have a UNIQUE IDENTIFIER
+
+## Why SQL?
+1. SQL is easy to understand
+2. Traditional databases
+
+## Basic SQL Commands
+1. SQL commands are instructions used to communicate with database
+2. It also perform specific task, function and queries of data
+
+## Types of SQL Commands and their examples
+1. Data Definition Language:     CREATE, ALTER, DROP, TRUNCATE
+2. Data Manipulation Language:   INSERT, UPDATE, DELETE
+3. Data Control Language:        GRANT, REVOKE
+4. Data Query Language:          SELECT
+5. Transaction Control Language: COMMIT, ROLLBACK, SAFE POINT
 
 # POWERBI
 PowerBI is a collection of software services, apps and connectors that work together to turn your unrelated sources of data into coherent, visually immersive and interactive insights.

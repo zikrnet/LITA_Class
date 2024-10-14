@@ -672,3 +672,6 @@ Conditional Functions	-	IF Function
 ```
 =IF(G2<=10, "Low", IF(G2<=50,"Medium","High"))
 ```
+
+![IF](https://github.com/user-attachments/assets/281ebbe7-ee23-4e7c-84e9-c2e2aafc1602)
+

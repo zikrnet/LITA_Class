@@ -664,3 +664,11 @@ Summary: In this project, you are tasked with analyzing the sales performance of
 You will need to explore sales data to uncover key insights such as top-selling products, regional 
 performance, and monthly sales trends. The goal is to produce an interactive Power BI 
 dashboard that highlights these findings.
+
+
+# Create any other interesting report
+Conditional Functions	-	IF Function
+
+```
+=IF(G2<=10, "Low", IF(G2<=50,"Medium","High"))
+```

@@ -675,3 +675,5 @@ Conditional Functions	-	IF Function
 
 ![IF](https://github.com/user-attachments/assets/281ebbe7-ee23-4e7c-84e9-c2e2aafc1602)
 
+
+# Total Sales by Region, Product and Month

@@ -578,7 +578,6 @@ Power BI Fundamentals is for analysts looking to create professional, meaningful
 - The Get Data window appears. 
 - You can choose from the many different data sources to which Power BI Desktop can connect.
 
-
 ![lita class data](https://github.com/user-attachments/assets/7355826a-32e7-44c5-8739-9d3190611251)
 ---
 ## Transform Data
@@ -653,6 +652,19 @@ Syntax:
 ```
 = Table.AddColumn(#"Renamed Columns", "Oustanding", each [May Loan Summary] - [Loan Deposit])
 ```
+
+# Column Quality
+In Power BI, column quality is a feature that displays the percentage of valid, empty, and error entries in a column:
+Valid: Green
+Error: Red
+Empty: Dark gray
+Unknown: Dashed green
+Unexpected error: Dashed red 
+To enable column quality, you can:
+Go to the View tab
+Select Column Quality 
+
+![Capture](https://github.com/user-attachments/assets/4633b936-21a2-4941-99cd-6d1adcb882e2)
 
 
 14TH OCTOBER, 2024

@@ -669,7 +669,7 @@ Select Column Quality
 
 14TH OCTOBER, 2024
 
-## MY LITA PROJECT
+## MY LITA CLASS PROJECT
 
 # Project 1: Sales Performance Analysis for a Retail Store 
 Summary: In this project, you are tasked with analyzing the sales performance of a retail store. 

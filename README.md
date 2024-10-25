@@ -671,19 +671,7 @@ Select Column Quality
 
 ## MY LITA CLASS PROJECT
 
-# Project 1: Sales Performance Analysis for a Retail Store 
-Summary: In this project, you are tasked with analyzing the sales performance of a retail store. 
-You will need to explore sales data to uncover key insights such as top-selling products, regional 
-performance, and monthly sales trends. The goal is to produce an interactive Power BI 
-dashboard that highlights these findings.
-
-
-# Create any other interesting report
-Conditional Functions	-	IF Function
-
-```
-=IF(G2<=10, "Low", IF(G2<=50,"Medium","High"))
-```
+Using Human Resources Data 
 
 ![IF](https://github.com/user-attachments/assets/281ebbe7-ee23-4e7c-84e9-c2e2aafc1602)
 
@@ -698,5 +686,20 @@ Sort by Column feature allows you to control the order in which data is displaye
 
 
 ![sort by](https://github.com/user-attachments/assets/92d98e76-1ad0-41ab-8719-82832b3b5c0b)
+
+## TABLE
+
+To create a table in PowerBI that summarizes the total count of current employee, categorized by marital status and gender
+
+
+![TABLE](https://github.com/user-attachments/assets/881ce11a-c3c8-4d1f-b2ce-16a25aa0fb45)
+
+## SLICERS
+
+To create a dropdown for selecting a Job Role in PowerBI
+
+![JOB ROLE](https://github.com/user-attachments/assets/25773b0f-11c2-41f8-a4a4-f91efac9bdaa)
+
+
 
 

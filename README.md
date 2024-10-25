@@ -691,3 +691,12 @@ Conditional Functions	-	IF Function
 # VISUALIZATION
 
 ![class project](https://github.com/user-attachments/assets/c62b7ab7-419f-40d4-8308-82fb849c7535)
+
+## Sort by Column
+
+Sort by Column feature allows you to control the order in which data is displayed in visualizations by using a custom sorting column
+
+
+![sort by](https://github.com/user-attachments/assets/92d98e76-1ad0-41ab-8719-82832b3b5c0b)
+
+

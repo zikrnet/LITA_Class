@@ -701,5 +701,16 @@ To create a dropdown for selecting a Job Role in PowerBI
 ![JOB ROLE](https://github.com/user-attachments/assets/25773b0f-11c2-41f8-a4a4-f91efac9bdaa)
 
 
+This dashboard analyzes job satisfaction ratings across key dimensions like job roles, gender and age. The objective is to identify trends and possible areas for improvement to support employee engagement and retention strategies.
 
+Key Metrics
+
+*	Job Satisfaction Rating:	Satisfaction scores are segmented by job roles (e.g. HR, Laboratories Technician, Manager, Research Director etc)
+*	Insights:			Laboratories Technician has the highest satisfaction (62), while Research Director shows lower satisfaction (2).
+
+Summary
+The dashboard reveals critical insights for enhancing job satisfaction across the company, spotlighting areas needing focus. Recommendations based on the data include strengthening onboarding programs, focusing on gender specific satisfaction initiatives and addressing department specific concerns.
+
+
+![NEW DASHBOARD](https://github.com/user-attachments/assets/38848254-ebdb-42d9-9f58-a3eed3a6ca3b)
 

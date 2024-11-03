@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/73f23a9f-6329-4b4a-a49d-707018b97a01)![image](https://github.com/user-attachments/assets/65a9b406-7d18-48d1-8590-fa3bc79dabfb)## Project Title: BASICS OF DATA ANALYSIS
+## Project Title: BASICS OF DATA ANALYSIS
 
 # PROJECT OVERVIEW
 1. Data Source
@@ -724,6 +724,18 @@ Total profit for senegal:	```select sum(profit) as TotalProfit from [dbo].[Inter
 where countries = 'senegal'```
 
 ![27](https://github.com/user-attachments/assets/77163845-b247-4571-a865-c0fd8b67fb9b)
+
+
+To get total profit for Nigeria in 2019:	```select sum(profit) as TotalProfit from [dbo].[International Breweries]
+where countries ='nigeria' and years ='2019'```
+
+![28](https://github.com/user-attachments/assets/b6695279-02f4-44bb-86fc-da786a862786)
+
+Overall total profit for nigeria:	```select Brands,sum(profit) as TotalProfit from [dbo].[International Breweries] where countries='nigeria' Group by Brands order by 2 desc```
+
+
+![29](https://github.com/user-attachments/assets/30467d54-a864-4afd-85be-a83b4b9fbc66)
+
 
 
 ## POWERBI

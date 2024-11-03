@@ -75,6 +75,7 @@ The Excel CONCATENATE function joins two or more text items together.
 Syntax: CONCATENATE (text1, [text2], …)
 ```
 ---
+
 ## 4. REPORT AND DASHBOARD IN EXCEL
 An Excel dashboard is basically a high-level visual representation of key business metrics.
 
@@ -233,6 +234,11 @@ HireDate datetime,
 primary key (staffid)
 )
 ```
+
+
+![1](https://github.com/user-attachments/assets/a1289331-bc87-46ba-8374-7a3beceb3a31)
+
+
 
 3. Select:  helps to retrieve information from database
 Syntax

@@ -565,6 +565,42 @@ SELECT * FROM PAYMENT
 # UNION AND UNION ALL
 UNION and UNION ALL in SQL are set operators that combine the results of two SELECT queries. Both share standard features, with one significant difference: UNION only returns a unique record, while UNION ALL returns all the records (including duplicates).
 
+
+##	Creating a table called Lita_Store_Lekki
+
+
+```
+create table  LITA_Store_Lekki (
+customerID INT not null,
+firstname varchar (max),
+lastname  varchar (max),
+Customer_gender nvarchar(max),
+age int,
+address varchar (max),
+transaction_amount decimal (18, 4)
+)
+```
+
+![19](https://github.com/user-attachments/assets/50b5676c-9ed4-4e96-9d25-54ab1ad3f498)
+
+##	Creating a table called Lita_Store_Marina
+
+```
+create table  LITA_Store_Marina (
+customerID INT not null,
+firstname varchar (max),
+lastname  varchar (max),
+Customer_gender nvarchar(max),
+age int,
+address varchar (max),
+transaction_amount decimal (18, 4)
+)
+```
+
+
+![20](https://github.com/user-attachments/assets/29e69c45-121b-4c16-bafb-442f8f57a383)
+
+
 Union All
 
 Syntax
@@ -574,6 +610,10 @@ Syntax
 	union all
 	select * from LITA_Store_Marina
 ```
+
+
+![21](https://github.com/user-attachments/assets/c2d56c0a-c472-4552-92e8-ca86a005aa0f)
+
 
 Union 
 
@@ -587,16 +627,27 @@ select customerID, Customer_gender, transaction_amount
 from LITA_Store_Marina
 ```
 
+![22](https://github.com/user-attachments/assets/28d4b1b7-fef6-4d1c-b01c-249c2dbf42f4)
+
+
 # SQL VIEWS
-SQL views can streamline the data management processes and enhance the analytical capabilities. An SQL view is a virtual table that is created based on the result set of a SQL query. 
+
+A SQL View is a virtual table that provides a way to store and organize query results as if they were in a physical table without actually storing data itself. SQL views can streamline the data management processes and enhance the analytical capabilities. An SQL view is a virtual table that is created based on the result set of a SQL query. 
 
 A view behaves like a SQL allowing you to select, update, insert, and delete data (with some limitation). A view is defined using a SELECT statement that can join multiple tables, filter rows and select specific columns. 
 
-Syntax:
+```
+create view vw_Employee_tbl
+as
+SELECT STAFFID, firstname, gender, hiredate from employee
+```
 
 ```
-select * from [dbo].[vw_LITA_Store_Transaction_tbl]
+select * from [dbo].[vw_Employee_tbl]
 ```
+
+![23](https://github.com/user-attachments/assets/9794644f-eb9e-49ce-bbc1-7789e2542e93)
+
 
 ##	Query Optimization
 

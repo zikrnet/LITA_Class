@@ -1,4 +1,4 @@
-## Project Title: BASICS OF DATA ANALYSIS
+![image](https://github.com/user-attachments/assets/73f23a9f-6329-4b4a-a49d-707018b97a01)![image](https://github.com/user-attachments/assets/65a9b406-7d18-48d1-8590-fa3bc79dabfb)## Project Title: BASICS OF DATA ANALYSIS
 
 # PROJECT OVERVIEW
 1. Data Source
@@ -648,6 +648,34 @@ select * from [dbo].[vw_Employee_tbl]
 
 ![23](https://github.com/user-attachments/assets/9794644f-eb9e-49ce-bbc1-7789e2542e93)
 
+##	Create view for 3 join
+
+```
+create view vw_LITA_Employee_info
+as
+select employee.staffid,
+           employee.firstname, 
+		   employee.gender,
+		   employee.hiredate,
+			employee.state_of_origin,
+			Salary.department,
+			 Salary.salary,
+			 Payment.Account_No,
+			 Payment.Bank,
+			 Payment.Payment_Method
+from employee
+inner join Salary
+on salary.Staffid = employee.staffid
+inner join Payment
+on Payment.staffid = salary.Staffid
+```
+
+```
+select * from vw_LITA_Employee_info
+```
+
+![24](https://github.com/user-attachments/assets/f1c0fd07-18d1-4607-ae0a-10943836d89d)
+
 
 ##	Query Optimization
 
@@ -669,13 +697,34 @@ on a.Staffid = p.staffid
 ![query optimization](https://github.com/user-attachments/assets/bf3513d2-438b-488a-80ae-64c3dbcb688d)
 
 
-# HOW TO EXPORT
+# HOW TO IMPORT DATA INTO SQL
 
-1. Open Excel
-2. Click on Data
-3. Click on "from other source"
-4. Click on "from SQR Server"
-5. Data connect wizard
+1. Open SQL Server Management Studio
+2. Select **Tasks > Import Data**
+3. Select data source (e.g. Excel, CSV etc)
+4. Select the destination and specify the database
+5. Map the source columns to the destination table columns
+6. Run the import process
+
+Importing a Table called;
+
+##	International BREWERIES
+
+```
+SELECT * FROM [dbo].[International Breweries]
+```
+
+![25](https://github.com/user-attachments/assets/286c90f1-ef8c-41b2-b06d-cac3934bb67a)
+
+Total Profit:	```select sum(profit) as TotalProfit from [dbo].[International Breweries]```
+
+![26](https://github.com/user-attachments/assets/59383536-5e7c-4b0e-afd9-115e7bfb33cb)
+
+Total profit for senegal:	```select sum(profit) as TotalProfit from [dbo].[International Breweries]
+where countries = 'senegal'```
+
+![27](https://github.com/user-attachments/assets/77163845-b247-4571-a865-c0fd8b67fb9b)
+
 
 ## POWERBI
 PowerBI is a collection of software services, apps and connectors that work together to turn your unrelated sources of data into coherent, visually immersive and interactive insights.

@@ -26,14 +26,13 @@ Methods and Tools used for the analysis;
 3. Basic Excel Functions
 4. Reports and Dashboards in Excel
 5. Project
----
+
 
 ## QUOTES: The capacity to learn is a gift; the ability to learn is a skill; the willingness to learn is a choice. - Brian Herbert
 
 ## 1. FOUNDATIONS OF DATA
 A data foundation refers to the fundamental infrastructure, processes, and strategies that lay the groundwork for effectively collecting, managing, storing, organizing, and leveraging enterprise data. A data foundation will allow you to consider your data as a single entity, rather than disparate, largely unrelated pieces of information.
 
----
 
 ## 2. Introduction to Ms-Excel
 Microsoft Excel is a popular spreadsheet software program for business. It's used for data entry and management, charts and graphs, and project management. Excel contains the workbook where we see multiple worksheets
@@ -235,17 +234,14 @@ primary key (staffid)
 )
 ```
 
-
-![1](https://github.com/user-attachments/assets/a1289331-bc87-46ba-8374-7a3beceb3a31)
-
-
-
 3. Select:  helps to retrieve information from database
 Syntax
 
 ```
 select * from employee
 ```
+
+![1](https://github.com/user-attachments/assets/a1289331-bc87-46ba-8374-7a3beceb3a31)
 
 4. Insert:  to key-in data in the database
 Syntax
@@ -286,12 +282,32 @@ age int
 )
 ```
 
+![2](https://github.com/user-attachments/assets/bad8ec18-bd4f-4f2c-be25-74ef91cd1e0e)
+
+##	To create a second table called salary table
+
+```
+CREATE TABLE Salary (
+salary_id int identity (1,1)not null,
+Staffid varchar (255),
+firstname varchar (255),
+lastname varchar (255),
+department nvarchar(max),
+salary decimal (10, 3) ---(10: precision, 3:scale)
+)
+```
+
+![3](https://github.com/user-attachments/assets/0ca6aac9-cb4a-42b1-8994-4b44196c30d7)
+
+
 9. SUM:  SUM is a SQL aggregate function. that totals the values in a given column.
 Syntax
 
 ```
 SELECT SUM(Salary) AS TOTALSALARY FROM Salary
 ```
+
+![4](https://github.com/user-attachments/assets/7995fa58-3023-4d6e-b85c-4bcddabd182f)
 
 10. AVERAGE: AVG () computes the average of a set of values by dividing the sum of those values by the count of non-null values.
 Syntax
@@ -300,6 +316,8 @@ Syntax
 SELECT AVG(Salary) AS AVERAGESALARY FROM Salary
 ```
 
+![5](https://github.com/user-attachments/assets/928cc41c-57ed-4cbb-b208-c5b5881cf06e)
+
 11. COUNT:  The COUNT() function returns the number of records returned by a select query. Note: NULL values are not counted.
 Syntax
 
@@ -307,12 +325,17 @@ Syntax
 SELECT COUNT(Staffid) AS EmployeeCount FROM EMPLOYEE
 ```
 
+![6](https://github.com/user-attachments/assets/3d4d8e0e-acd2-4a46-96c4-d930a870110f)
+
+
 12. MAX:  The MAX function in SQL is designed to identify the maximum value of a specified column. This function is particularly useful in retrieving the highest value from sets of data.
 Syntax
 
 ```
 SELECT MAX(column_1) FROM table.
 ```
+
+![7](https://github.com/user-attachments/assets/f2c0062c-a623-4374-a51f-e41aa1b6e66e)
 
 13. MIN:  The MIN() function returns the smallest value of the selected column.
 Syntax

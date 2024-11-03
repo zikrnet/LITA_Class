@@ -318,6 +318,7 @@ SELECT AVG(Salary) AS AVERAGESALARY FROM Salary
 
 ![5](https://github.com/user-attachments/assets/928cc41c-57ed-4cbb-b208-c5b5881cf06e)
 
+
 11. COUNT:  The COUNT() function returns the number of records returned by a select query. Note: NULL values are not counted.
 Syntax
 
@@ -328,37 +329,74 @@ SELECT COUNT(Staffid) AS EmployeeCount FROM EMPLOYEE
 ![6](https://github.com/user-attachments/assets/3d4d8e0e-acd2-4a46-96c4-d930a870110f)
 
 
+Create another table call PAYMENT TABLE
+
+```
+CREATE TABLE Payment (
+paymentid int identity (1,1) primary key,
+Account_No bigint not null,
+staffid int,
+Bank varchar (255) default 'Zenith Bank',
+Payment_Method varchar (50) check (Payment_Method = 'Cash' or Payment_Method = 'Transfer')
+)
+```
+
+![8](https://github.com/user-attachments/assets/9f3fe57b-a600-4fa1-828c-38ed537dc487)
+
+
+##	To select Top 5 Customers
+
+```
+select top 5 * from Salary
+```
+
+![11](https://github.com/user-attachments/assets/1c76f0ed-77be-44f7-9788-38af0cdc5aff)
+
+
+
 12. MAX:  The MAX function in SQL is designed to identify the maximum value of a specified column. This function is particularly useful in retrieving the highest value from sets of data.
 Syntax
+
 
 ```
 SELECT MAX(column_1) FROM table.
 ```
 
+
 ![7](https://github.com/user-attachments/assets/f2c0062c-a623-4374-a51f-e41aa1b6e66e)
+
 
 13. MIN:  The MIN() function returns the smallest value of the selected column.
 Syntax
 
+
 ```
 SELECT MIN(column_1) FROM table.
 ```
+
 # SQL CLAUSE
 SQL Clauses are essential components of SQL that define how queries interact wit the database. They are used to specify condtions, modify data and control how results are returned. 
 
+
 SQL Clause comprises of the folowing;
 1. Group By Clause:  gorup rows that have the same value into summary row
- 
+
+
  Syntax:
 
 ```
 select count(staffid) state_of_origin from employee
 GROUP BY state_of_origin
 ```
- 
+
+
+ ![10](https://github.com/user-attachments/assets/9dd9e40a-d079-44d7-8bbf-c18a1ac42d1c)
+
+
 2. Having Clause:  enable user to filter the result based on the result
 
 Syntax:
+
 
 ```
 select count(staffid) state_of_origin 
@@ -366,6 +404,7 @@ from employee
 GROUP BY state_of_origin 
 HAVING COUNT(Staffid) >=3
 ```
+
 
 3. Order By Clause:  to sort result either in ascending or descending order
 
@@ -379,6 +418,8 @@ HAVING COUNT(Staffid) >=3
   order by count(staffid) asc
   ```
 
+![13](https://github.com/user-attachments/assets/fc7d213c-0fbf-429f-8af5-2d22207825bc)
+
   b. Descending Order
   Syntax:
 
@@ -388,6 +429,9 @@ HAVING COUNT(Staffid) >=3
   GROUP BY state_of_origin
   order by count(staffid) desc
   ```
+
+![12](https://github.com/user-attachments/assets/389ba05f-374e-469b-b950-821c3604664f)
+
 
 # COLUMN INDEX
 Sorting by particular column by representing a number
@@ -427,6 +471,10 @@ select * from Salary
 where salary <> 100560.934
 ```
 
+
+![15](https://github.com/user-attachments/assets/27e055aa-195b-4418-98f7-cbb044ded1d6)
+
+
 # Range Operators  
 Range operators are those operators which selects data according to particular range.
 1. Between
@@ -437,6 +485,9 @@ Syntax:
 select * from salary
 where salary between 500000 and 900000
 ```
+
+![16](https://github.com/user-attachments/assets/e1408161-d2eb-4a33-bfef-603bc058f98a)
+
 
 2. Not Between
    
@@ -468,6 +519,10 @@ SELECT * FROM EMPLOYEE
 WHERE FIRSTNAME ='JUSTIN' OR GENDER= 'FEMALE'
 ```
 
+![17](https://github.com/user-attachments/assets/e6a6d068-fc1d-4cf7-acd3-4c8d482074e3)
+
+
+
 - NOT: The NOT operator is used in combination with other operators to give the opposite result, also called the negative result.
 
 Syntax
@@ -493,7 +548,19 @@ A Join is used to combine rows or record from two or more table based on related
 - Left Join
 - Right Join
 - Full Join
+  
 [https://www.geeksforgeeks.org/sql-join-set-1-inner-left-right-and-full-joins/]
+
+Joining the three tables together
+
+```
+SELECT * FROM EMPLOYEE
+SELECT * FROM SALARY
+SELECT * FROM PAYMENT
+```
+
+![18](https://github.com/user-attachments/assets/722b1cc1-b869-4f65-8a0f-3b94b57e7c9c)
+
 
 # UNION AND UNION ALL
 UNION and UNION ALL in SQL are set operators that combine the results of two SELECT queries. Both share standard features, with one significant difference: UNION only returns a unique record, while UNION ALL returns all the records (including duplicates).
@@ -530,6 +597,26 @@ Syntax:
 ```
 select * from [dbo].[vw_LITA_Store_Transaction_tbl]
 ```
+
+##	Query Optimization
+
+Query Optimization involves improving the efficiency of a database query so it retrieves results faster and with minimal resource usage
+
+```
+select p.staffid, 
+           p.firstname, 
+		   p.gender,
+			 p.hiredate,
+			 p.state_of_origin, 
+			 a.department,
+			 a.salary
+from employee p
+join Salary a
+on a.Staffid = p.staffid
+```
+
+![query optimization](https://github.com/user-attachments/assets/bf3513d2-438b-488a-80ae-64c3dbcb688d)
+
 
 # HOW TO EXPORT
 
